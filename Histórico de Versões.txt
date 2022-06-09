@@ -1,0 +1,73 @@
+Versão 5.0.11 - 09/06/2022
+- Cores de sinais digitais (aberto/fechado) estava invertido
+
+Versão 5.0.10 - 02/06/2022
+- Corrigido Bug - Clique duplo sobre Localizacao de defeito não abria grafico RX
+
+Versão 5.0.9 - 24/05/2022
+- Criado opção de tipo e tamanho de fonte em opçoes
+- Corrigido erro de gravação de barra de atalhos
+- Corrigido bug de "sujeira" na legenda do lado esquerdo
+
+Versão 5.0.8 - 19/05/2022
+- Criado opção de tamanho de fonte
+
+Versão 5.0.7 - 10/05/2022
+- Corrigido Bug de nao fechar analise se nao tiver pasta temp
+- Gravando log de erro ao abrir uma oscilografia
+- Corrigido bug de leitura via creg (pasta temporaria do Windows)
+- Corrigido tamanho das fontes
+
+Versão 5.0.5 - 05/05/2022
+- Corrigido Bug de nao fechar analise se nao tiver pasta temp
+- Gravando log de erro ao abrir uma oscilografia
+
+
+Versão 5.0.4 - 05/05/2022
+- Corrigido Bug das fontes (todos Arial agora)
+- Corrigido Bug não aparecia coluna X1 na localização de faltas
+- Excluindo arquivos temporários criados ao descompactar ZIC
+- Alterado rotina de criação de diretório temporário (compatibilizar CREG)
+
+Versão 5.0.3 - 27/04/2022 - Copel
+
+- Corrigido Bug - diretorio temporario para descompactacao usando do windows
+- Corrigido Bug - Se tinha um cfgbck dentro do compactado não abria. E se tinha pasta dentro de pasta também.
+
+Versão 5.0.2 - 28/03/2022 - Eletrosul
+
+- Corrigido Bug - se um dos arquivos compactados (ZIC) tivesse tamanho zero apresentava erro
+
+
+Versão 5.0.1 - 24/03/2022 - Eletrosul
+
+O que foi corrigido
+
+- Sequencial de eventos com muitas linhas escondia os botões (inserir digitais, etc)
+- Alguns .zic apresentava erro. Trocado componente de manipulação de arquivo compactado
+
+
+Versão 5.0.0 - 11/03/2022 - Primeira Compilação
+
+O que é novidade
+
+- Faz leitura do Comtrade 2013, nos formatos Binary32 e Float32
+- Em opções/arquivos foi criado a opção "Ignorar a criação de arquivo INF"
+
+
+O que foi alterado
+
+- Configuração não usa mais registro do Windows e sim um arquivo json (configuracao.json)
+- Barra de ferramentas gravada na pasta do executável, não mais no c:\windows\system
+
+
+O que foi retirado
+
+- Integração com Sisrep
+- Número de série, habilitando todas as funções
+- Impressão de Análise Harmônica
+- Exportação de Análise Harmônica
+- Impressão da Localização de Faltas
+- Impressão de Sequencia de Eventos
+- Exportação de Sequencia de Eventos
+- Help
