@@ -1,5 +1,9 @@
+Versão 5.0.12 - 21/06/2022
+- Corrigido Bug : Se grandeza nao estava no INF nao aparecia. Critico para digitais
+- Corrigido Bug : Se grandeza era repetido no INF nao colocava legenda
+
 Versão 5.0.11 - 09/06/2022
-- Cores de sinais digitais (aberto/fechado) estava invertido
+- Corrigido Bug : Cores de sinais digitais (aberto/fechado) estava invertido
 
 Versão 5.0.10 - 02/06/2022
 - Corrigido Bug - Clique duplo sobre Localizacao de defeito não abria grafico RX
